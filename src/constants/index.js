@@ -2,6 +2,9 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import calculator from "../assets/projects/calculator.png";
+
+
 
 export const HERO_CONTENT = `I am a passionate frontend web developer with a knack for crafting robust and scalable web applications. With one year of hands-on experience, I have honed my skills in front-end technologies such as HTML, CSS, JavaScript, jQuery, Bootstrap, RESTful APIs, React, and TypeScript. My goal is to leverage my expertise to create responsive websites and innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -40,32 +43,35 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "Calculator App",
+    image: calculator,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["HTML", "CSS", "React", "typescript", "Bootstrap"],
+    link: "https://calculator-app-seven-livid.vercel.app/"
   },
   {
-    title: "Task Management App",
+    title: "To-Do List App",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An application for creating and managing tasks and projects, with features such delete tasks that are no longer needed, Lets users mark tasks as completed, often with visual indicators like strikethrough text or checkmarks.",
+    technologies: ["HTML", "CSS", "React", "Typescript"],
+    
   },
   {
     title: "Portfolio Website",
+    link: "https://myportfolio-two-flax.vercel.app/",
     image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+    description: "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
+  
   {
     title: "Blogging Platform",
     image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["HTML", "CSS", "javascript","Bootstrap"],
   },
 ];
 

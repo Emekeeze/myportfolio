@@ -11,7 +11,7 @@ const Navbar = () => {
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
         <a
-          href="https://www.linkedin.com/in/junior-uboh/"
+          href="https://www.linkedin.com/in/ubohchukwuemeke/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
@@ -20,7 +20,7 @@ const Navbar = () => {
           <FaLinkedin />
         </a>
         <a
-          href="https://github.com/"
+          href="https://github.com/Emekeeze"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Github"
@@ -29,7 +29,7 @@ const Navbar = () => {
           <FaGithub />
         </a>
         <a
-          href="https://twitter.com/"
+          href="https://x.com/Ubohchukwuemeke"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Twitter"
@@ -38,7 +38,7 @@ const Navbar = () => {
           <FaTwitter />
         </a>
         <a
-          href="https://instagram.com/"
+          href="https://www.instagram.com/ubohchukwuemeke/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram"
@@ -47,7 +47,7 @@ const Navbar = () => {
           <FaInstagram />
         </a>
         <a
-          href="https://facebook.com/"
+          href="https://web.facebook.com/ubohchukwuemeke/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Facebook"
