@@ -3,7 +3,6 @@ import Navbar from "./Components/Navbar"; // Ensure the path is correct
 import Hero from "./Components/Hero"
 import About from "./Components/About"
 import Technology from "./Components/Technology";
-import Projects from "./Components/Projects"
 import Project from "./Components/Project"
 import Contact from "./Components/Contact"
 const App = () => {
