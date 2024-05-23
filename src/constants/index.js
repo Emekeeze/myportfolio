@@ -3,6 +3,10 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import calculator from "../assets/projects/calculator.png";
+import todolist from "../assets/projects/todolist.png";
+import income from "../assets/projects/income.png";
+import portfolio from "../assets/projects/portfolio.png";
+
 
 
 
@@ -52,16 +56,17 @@ export const PROJECTS = [
   },
   {
     title: "To-Do List App",
-    image: project2,
+    image: todolist,
     description:
       "An application for creating and managing tasks and projects, with features such delete tasks that are no longer needed, Lets users mark tasks as completed, often with visual indicators like strikethrough text or checkmarks.",
     technologies: ["HTML", "CSS", "React", "Typescript"],
+    link: "https://my-todolist-pi.vercel.app/"
     
   },
   {
     title: "Portfolio Website",
     link: "https://myportfolio-two-flax.vercel.app/",
-    image: project3,
+    image: portfolio,
     description: "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
@@ -72,6 +77,14 @@ export const PROJECTS = [
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "javascript","Bootstrap"],
+  },
+  {
+    title: "Income Expenses Website",
+    image: income,
+    description:
+      " A user-friendly app designed to help you take control of your finances. Whether you want to monitor your income, track your expenses, or plan for future savings.",
+    technologies: ["HTML", "CSS", "javascript","Bootstrap", "React", "Typescript"],
+    link:"https://income-expenses-orcin.vercel.app/"
   },
 ];
 
