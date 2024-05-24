@@ -42,34 +42,35 @@ const Projects = () => {
               className="w-full max-w-xl lg:w-3/4"
             >
               <h6 className="mb-2 font-semibold">
-                {" "}
                 <a
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {project.title}{" "}
+                  {project.title}
                 </a>
               </h6>
               <p className="mb-4 text-neutral-400">{project.description}</p>
-              {project.technologies.map((tech, index) => (
-                <span
-                  key={index}
-                  className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
+              <div className="flex flex-wrap">
+                {project.technologies.map((tech, index) => (
+                  <span
+                    key={index}
+                    className="mr-2 mb-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <p className="py-2 font-thin">
+                <a
+                  className="hover:border-b-2 border-neutral-500 text-neutral-200 hover:text-purple-700 hover:border-white-700 transition duration-300 ease-in-out my-4"
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  {tech}
-                </span>
-              ))}
-<p className="py-2 font-thin">
-  <a 
-    className="hover:border-b-2 border-nuetral-500 text-neutral-200 hover:text-purple-700 hover:border-white-700 transition duration-300 ease-in-out my-4" 
-    href={project.link}
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    Project Link
-  </a>
-</p>
+                  Project Link
+                </a>
+              </p>
             </motion.div>
           </div>
         ))}
